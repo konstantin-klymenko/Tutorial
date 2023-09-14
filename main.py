@@ -1,5 +1,10 @@
-a = 6
-def func(a = 7, b = 5, c = 10):
-    print('a дорівнює', a,', b дорівнює', b,', а c дорівнює', c)
+num = int(input("Enter integer (0 for output): "))
+sum = 0
+while num > 0:
+    for i in range (0, num + 1):
+        sum += i
 
-func()
+    print (sum)
+    
+        
+    num = int(input("Enter integer (0 for output): "))
